@@ -1,7 +1,11 @@
 ### LeafLet Map
 
-- Draw or set marker & Get place Coordinates & auto fetch its commercial buildings around [10000h].
-- Get distance between 2 coords.
+- Draw or set marker & Get a place Details & auto fetch its commercial buildings around [10000h].
+- Get distance between coords.
+
+***
+
+[Demo](https://ah-salah.github.io/LeafletMap/)
 
 ***
 
