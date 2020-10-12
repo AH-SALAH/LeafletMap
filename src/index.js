@@ -112,7 +112,8 @@ QiamMap.prototype.addTile = function(Url, Options) {
           id: "mapbox.streets"
           // accessToken: "your.mapbox.access.token"
         },
-        stamenUrl = Url ? Url : "http://tile.stamen.com/terrain/{z}/{x}/{y}.jpg",
+        // stamenUrl = Url ? Url : "http://tile.stamen.com/terrain/{z}/{x}/{y}.jpg",
+        stamenUrl = Url ? Url : "//stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg", // protocol-agnostic 4 sites requires https
         stamenOptions = Options
         ? Options
         : {
